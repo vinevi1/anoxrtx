@@ -1,0 +1,4042 @@
+#usda 1.0
+(
+    customLayerData = {
+        string lightspeed_game_name = "Anachronox"
+        string lightspeed_layer_type = "replacement"
+        dictionary lightspeed_mod_dependencies = {
+        }
+        string lightspeed_mod_name = "anoxrt"
+        string lightspeed_mod_version = "1.0.0"
+        dictionary omni_layer = {
+            dictionary locked = {
+                bool "./deps/captures/capture_2025-06-22_12-52-26__20.usd" = 1
+            }
+        }
+    }
+    endTimeCode = 16
+    metersPerUnit = 1
+    startTimeCode = 0
+    timeCodesPerSecond = 24
+    upAxis = "Y"
+)
+
+over "RootNode"
+{
+    over "cameras"
+    {
+        over "Camera"
+        {
+            custom uniform vector3d omni:kit:centerOfInterest = (0, 0, -1424.0872382074601)
+            matrix4d xformOp:transform = ( (-0.754400661948353, 0.6536510031775992, -0.060166496463481725, 0), (-0.10111913897440869, -0.025159276688516165, 0.9945561474996847, 0), (0.6485788779977787, 0.7563778003361289, 0.08507680161902856, 0), (1448.4370327200536, 1179.988525277505, 573.1112548809405, 1.0000000000000002) )
+        }
+    }
+
+    over "meshes"
+    {
+        over "mesh_A0462913913A01A1"
+        {
+            def SphereLight "SphereLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -5), (5, 5, 5)]
+                float inputs:intensity = 100
+                float inputs:radius = 5
+                float inputs:shaping:cone:angle = 180
+                float inputs:shaping:cone:softness
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (90, 0, 90)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "mesh_A7686A881B7C5AFA"
+        {
+            def SphereLight "SphereLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -5), (5, 5, 5)]
+                color3f inputs:color = (1, 1, 0.82)
+                float inputs:intensity = 100
+                float inputs:radius = 5
+                float inputs:shaping:cone:angle = 180
+                float inputs:shaping:cone:softness
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (90, 0, 90)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (-451.59969958039727, 191.91445989437796, -9.507095300265542)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "mesh_9290FD0E4CD36438"
+        {
+            def SphereLight "SphereLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -5), (5, 5, 5)]
+                color3f inputs:color = (1, 1, 0.82)
+                float inputs:intensity = 100
+                float inputs:radius = 5
+                float inputs:shaping:cone:angle = 180
+                float inputs:shaping:cone:softness
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (90, 0, 90)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (-535.8208618164062, 191.51148986816546, -10.941177493204691)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "mesh_F26739957058723F"
+        {
+            def SphereLight "SphereLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -5), (5, 5, 5)]
+                color3f inputs:color = (1, 1, 0.82)
+                float inputs:intensity = 100
+                float inputs:radius = 5
+                float inputs:shaping:cone:angle = 180
+                float inputs:shaping:cone:softness
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (90, 0, 90)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (-495.4946481730725, 151.57026672363418, -4.38971630553416)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "mesh_897B299795DA6373"
+        {
+            def SphereLight "SphereLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -5), (5, 5, 5)]
+                color3f inputs:color = (1, 1, 0.82)
+                float inputs:intensity = 100
+                float inputs:radius = 5
+                float inputs:shaping:cone:angle = 180
+                float inputs:shaping:cone:softness
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (90, 0, 90)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (-495.3259220030132, 232.46896362304565, -13.530552455621493)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "mesh_96595B9BBD8FCE6F"
+        {
+            def SphereLight "SphereLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -5), (5, 5, 5)]
+                color3f inputs:color = (1, 1, 0.82)
+                float inputs:intensity = 25
+                float inputs:radius = 5
+                float inputs:shaping:cone:angle = 180
+                float inputs:shaping:cone:softness
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (90, 0, 90)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (-947.6485650142399, 401.870635986326, -147.75560480195514)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "mesh_FBAAE426BAB47D78"
+        {
+            def SphereLight "SphereLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -5), (5, 5, 5)]
+                float inputs:intensity = 100
+                float inputs:radius = 5
+                float inputs:shaping:cone:angle = 180
+                float inputs:shaping:cone:softness
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (90, 0, 90)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (1303.2396131802577, 1092.5268545077429, 338.19241731938536)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "mesh_99C06DA0DA05D3B1"
+        {
+            def SphereLight "SphereLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -5), (5, 5, 5)]
+                float inputs:intensity = 100
+                float inputs:radius = 5
+                float inputs:shaping:cone:angle = 180
+                float inputs:shaping:cone:softness
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (90, 0, 90)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (1231.099853515643, 1315.2624693422906, 387.2540194336365)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "mesh_02BA2F75EBE2D637"
+        {
+            def SphereLight "SphereLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -5), (5, 5, 5)]
+                float inputs:intensity = 100
+                float inputs:radius = 5
+                float inputs:shaping:cone:angle = 180
+                float inputs:shaping:cone:softness
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (90, 0, 90)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (1439.5173840750638, 1152.1812837605084, 333.75042724609375)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "mesh_475D02E5C7F3119B"
+        {
+            def SphereLight "SphereLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -5), (5, 5, 5)]
+                float inputs:intensity = 100
+                float inputs:radius = 5
+                float inputs:shaping:cone:angle = 180
+                float inputs:shaping:cone:softness
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (90, 0, 90)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (1445.8241285912616, 1335.198611030163, 331.1664735702745)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "mesh_EBFAFEFDAB81189A"
+        {
+            def SphereLight "SphereLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -5), (5, 5, 5)]
+                float inputs:intensity = 100
+                float inputs:radius = 5
+                float inputs:shaping:cone:angle = 180
+                float inputs:shaping:cone:softness
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (90, 0, 90)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (1179.0033080952646, 1071.947893774504, 333.9637756347656)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "mesh_18CDBF38809A6C6E"
+        {
+            def SphereLight "SphereLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -5), (5, 5, 5)]
+                float inputs:intensity = 100
+                float inputs:radius = 5
+                float inputs:shaping:cone:angle = 180
+                float inputs:shaping:cone:softness
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (90, 0, 90)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (16.583901252156693, 7.261012136532756, 6.607044068205596)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "mesh_005A97CB019ADEC1"
+        {
+            def SphereLight "SphereLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -5), (5, 5, 5)]
+                float inputs:intensity = 10
+                float inputs:radius = 15
+                float inputs:shaping:cone:angle = 180
+                float inputs:shaping:cone:softness
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (90, 0, 90)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (965.4728367319283, 1465.0915493962673, 10.634686402478799)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "mesh_8DC0A6F52EB102DF"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_4589ECA5AB8EC6CA"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom bool remix_category:ignore = 1
+                custom uniform bool remix_category:particle = 1
+            }
+        }
+
+        over "mesh_5FC4E998728C6546"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_91C24A109DBE12F8"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_EA460A6674F079A8"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_B02E1FC564570A63"
+        {
+            def SphereLight "SphereLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -5), (5, 5, 5)]
+                float inputs:intensity = 100
+                float inputs:radius = 5
+                float inputs:shaping:cone:angle = 180
+                float inputs:shaping:cone:softness
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (90, 0, 90)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (575.587646484375, 863.5325317382811, 3.4301509857177734)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "mesh_12DDCB7F557B3023"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+                custom uniform bool remix_category:decal_Static = 0
+            }
+        }
+
+        over "mesh_30E8CA06CC3C8F92"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+                custom uniform bool remix_category:decal_Static = 0
+            }
+        }
+
+        over "mesh_80A4EA50B89ACF98"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+                custom uniform bool remix_category:decal_Static = 0
+            }
+        }
+
+        over "mesh_C26E00E3BEF3B263"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_EA7AB088A3B824D1"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_EA19BB6862CF331B"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_3E77BB2714CCDDFD"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_66256360BB83D3B4"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_BD51F4A7154400ED"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_D0E7E979E79B626A"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_12EB5F62F1D63D1E"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_96E9E87627A2A2C9"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_2C5EDCCAB4B5D8A1"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_62AEE4D1E29C448D"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_221BAAF0AB0FE19F"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_286FA093C64F6D55"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_DFED79E9091273DC"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_AA650203A9153C2D"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_B9AF10210E0EC45B"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_C52CD9F5F2347923"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_7FF885932F9A6E0B"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_C1DFB16730088F29"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_FFF84495966FCDEB"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_23CDBB5D087752A7"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_D2E42264A3E8C344"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_AD7B7E84438F0870"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_861403413BFD7CE6"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_2C9AADCB9C2DD8A9"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_94134B4637E26999"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_A58E11A18B0EF2CD"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_F6F9A50488318927"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_65C9337DAF9D9AEF"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_F8B3BA0EF2B83FA4"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_1DADB34ABC243035"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_616FE6BB6CFA257D"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_D313D2A0A5797AF4"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_A6B57EC5ED2C721B"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_E8D3176D20296BF7"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_130C16BF7315908B"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_BC3BAFAFAD8B5DE0"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_C328C0C0A03C96AF"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_55FCF40F46EEF921"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_0B52D7CDC92EB5C8"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_2A41A6E71E5E9F49"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_53F932F1C2FCFCA8"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_670BD7F3D10C5B12"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_8BA5D9441E0DEFBF"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_ABBCC5DE4A76C57D"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_818161ED9687A912"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_72F3448C5BA7828B"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_5356BA3AF5D698DE"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_2596006121E45B43"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_9E833A1C891A18CE"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_555F25F1A5ED2F22"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_CE5B2F4487A0FCFD"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_54F7D78043593B4C"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_E28CFEA53A01068A"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_4798ADF27F267260"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_043DE7083330874E"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_208E7E133C70A464"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_66AD97896FC3397A"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_3A95EE68E5282E5D"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_E2FA9BD48B5C601A"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_E5F93A1CAB3C74EF"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_DD851CA96A94DBC9"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_CD349EA34CD4F87E"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_DE1289B993E7D9B7"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_25D89095E7C6DEC0"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_174CBF58C22ECA7E"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_90FACA2FDC854536"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_EBB725DF0605A477"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_6EF952D212FE7518"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_181F521CB1D75F9C"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_BED5469BA6BA05D8"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_B6295642C499D570"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_1AA6ED4494FEEF9B"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_0D3B41EFD8B89887"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_146EA4DADC9BD526"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_A65297D848136A56"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_A8FA0CAB9BFB70B2"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_EA57ABA48FA29E8A"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_98801F9E2AD11A87"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_CE4C514677FBCF8F"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_BDD1E2A606F778DF"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_3CF2B29A51DAB2CA"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_956A34034D0D7478"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_F42173B41776BDAC"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_6F76080EF0FD54DC"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_D50A1460E058BFDE"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_14CD52B41A87C0CE"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_48388484DCF6F3A2"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_E6DCB32B6A38D942"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_ADF5448A2A352052"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_B16EE7C50A074944"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_68176E11FF06C6AF"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_3AAAB438E42734FE"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_C42B4D53239FC80C"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_8B4BA8CE26AE384E"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_A38FBFCC16A328F5"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_4FA777B5243261F2"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_36A37F398C6DF760"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_C9A42A33C31B6D35"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_B74F2F4657059CE6"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_0471A5DC09E32EBA"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_71CDFC1ADAC4C124"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_E876BE11E03138B4"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_1979965956116C25"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_2D95E584A5FEBB3F"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_1C442F04E9E291B8"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_EB9D964BBD84826A"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_EB91B3D87720C1A4"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_3F11D9E441C18B0F"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_C2FD2A26EC60D39C"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_5A7F9BCCF9BB124F"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_FC2B1E6920981A30"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_10D343933325C5BD"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_35CEF56536FA6C34"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_1C135C5DB0F2A6B3"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_8298D36E1D6BA73C"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_92BD2100CAC57115"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_B28E4BEECA46A8B0"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_FEC3A5819AA8611E"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_DDF0AE3784D7290C"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_97D2CEA8FD5569BD"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_73C46F07C4FC4B94"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_E202F24A83015402"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_C37DDA25A1D2C70E"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_653B4F5FCEB104D6"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_48F4E5C7021DC205"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_A867C0BCF0837CA0"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_0D875DDF280B79EE"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_684DD1BC1C8F50E8"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_E917D83AD0FEFFEE"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_04FC5FE3260D283F"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_454466C9951F1B6B"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_1613109DE0462E00"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_B39A7BC404D2585C"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_B7E41469DEC0170C"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_20CF5B6E56D1C041"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_9C1A492A29434AB6"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_437933A7D5C212E2"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_642A380E6D40C963"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_0E1AD5342F1CBFE9"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_645F42DFCE495FCE"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_A4A66C93F20153D6"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_E3E3F61E1BC050BC"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_1CA77AEA6C376C5E"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_468AA82B8C17008E"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_F770DB5900F85366"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_ECD8EA2411EB8F06"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_0B44AD26C2271F24"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_596E98BC1B2D8557"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_AD326DE957721949"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_B2DCF3AA177DF0A6"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_51B2E62BEAD10E0B"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_08E5C64E7C03B11B"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_4F38AC37C561769C"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_E19A5B9950E89E28"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_44B58E59F0DBA70B"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_0071B19ABD4D2F50"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_4CB2C9528A03253F"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_F1034963ED684214"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_C04DFCA44B09A97C"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_1000C3DB5BA19A72"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_E1274D6E3B8EA3AF"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_27F91EBD70D9D876"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_DB425A8342DCDF20"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_19CD8F1B40C3D435"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_505D8598CE0EDDF7"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_2C0871621BF9F9E7"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_6C45CBA7D72C993C"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_C47FCFB024DE70A3"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_DE38D3433956856F"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_CB0CB19179581E94"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_A74AB7FA26AC8220"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_266F559792D891D1"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_86A7E60BBE532B1A"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_ACB5706309C90D61"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_8EEFCD38BDA1BF7B"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_6ED92368BFD884FA"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_38AA4A52D1F3D1C1"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_BD9D408D4FCA1265"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_0E7D3A8CF99B2D10"
+        {
+            def SphereLight "SphereLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -5), (5, 5, 5)]
+                color3f inputs:color = (0.7249491, 1, 0.66023165)
+                float inputs:intensity = 100
+                float inputs:radius = 5
+                float inputs:shaping:cone:angle = 180
+                float inputs:shaping:cone:softness
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (90, 0, 90)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (364.118844258111, 556.8010389693573, -389.6220703124999)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "mesh_8AE98931A6916CF4"
+        {
+            def SphereLight "SphereLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -5), (5, 5, 5)]
+                color3f inputs:color = (0.7709594, 1, 0.74517375)
+                float inputs:intensity = 100
+                float inputs:radius = 5
+                float inputs:shaping:cone:angle = 180
+                float inputs:shaping:cone:softness
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (90, 0, 90)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (5.684341886080802e-14, 1.1368683772161603e-13, -8)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "mesh_CF4EAC8BB8629C5D"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_433DA4970D836E69"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_64367DEA78EF836C"
+        {
+            def SphereLight "SphereLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -5), (5, 5, 5)]
+                color3f inputs:color = (1, 0.99804646, 0.6718147)
+                float inputs:intensity = 100
+                float inputs:radius = 5
+                float inputs:shaping:cone:angle = 180
+                float inputs:shaping:cone:softness
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (90, 0, 90)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (-319.9237365722658, -1616.986572265624, -366.7054138183595)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "mesh_B7C14A439161F609"
+        {
+            def SphereLight "SphereLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -5), (5, 5, 5)]
+                color3f inputs:color = (0.99489784, 1, 0.71428573)
+                float inputs:intensity = 100
+                float inputs:radius = 5
+                float inputs:shaping:cone:angle = 180
+                float inputs:shaping:cone:softness
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (90, 0, 90)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (91.9976043701172, -1703.7659912109368, -320.11959838867205)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "mesh_9A4041B772182820"
+        {
+            def SphereLight "SphereLight_01" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -5), (5, 5, 5)]
+                float inputs:intensity = 25
+                float inputs:radius = 15
+                float inputs:shaping:cone:angle = 180
+                float inputs:shaping:cone:softness
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (90, 0, 90)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (-174.77909851074227, -1535.1846923828132, -379.0065612792969)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "mesh_F1D5417413D11554"
+        {
+            def SphereLight "SphereLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -5), (5, 5, 5)]
+                color3f inputs:color = (1, 0.94530237, 0.6718147)
+                float inputs:intensity = 100
+                float inputs:radius = 5
+                float inputs:shaping:cone:angle = 180
+                float inputs:shaping:cone:softness
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (90, 0, 90)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (-45.81046676635742, -1728.0272216796875, -471.8389587402344)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "mesh_B38B71A3EBD34D2F"
+        {
+            def SphereLight "SphereLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -5), (5, 5, 5)]
+                color3f inputs:color = (1, 0.9678248, 0.7297298)
+                float inputs:intensity = 100
+                float inputs:radius = 5
+                float inputs:shaping:cone:angle = 180
+                float inputs:shaping:cone:softness
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (90, 0, 90)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (-79.04866027832033, -1518.2537841796882, -440.5893249511719)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "mesh_2AA1444280F75E60"
+        {
+            def SphereLight "SphereLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -5), (5, 5, 5)]
+                color3f inputs:color = (1, 0.96083844, 0.7258687)
+                float inputs:intensity = 200
+                float inputs:radius = 5
+                float inputs:shaping:cone:angle = 180
+                float inputs:shaping:cone:softness
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (90, 0, 90)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (-177.4919586181644, -1303.9931640625027, -397.6676025390625)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "mesh_F2732C1EC46B3258"
+        {
+        }
+
+        over "mesh_B3E4E597B5DEABCB"
+        {
+            def SphereLight "SphereLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -5), (5, 5, 5)]
+                float inputs:intensity = 100
+                float inputs:radius = 100
+                float inputs:shaping:cone:angle = 180
+                float inputs:shaping:cone:softness
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (90, 0, 90)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (-3142.355957031249, 1887.8991699218736, 2996.7543945312514)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "mesh_502C63C5D619B672"
+        {
+            def SphereLight "SphereLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -5), (5, 5, 5)]
+                float inputs:intensity = 100
+                float inputs:radius = 10
+                float inputs:shaping:cone:angle = 180
+                float inputs:shaping:cone:softness
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (90, 0, 90)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (1840.7426757812495, -1615.463989257812, 1901.0177001953125)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "mesh_02AB53E0CFB3ED6F"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_8776837913BC0178"
+        {
+            def SphereLight "SphereLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -5), (5, 5, 5)]
+                float inputs:intensity = 100
+                float inputs:radius = 10
+                float inputs:shaping:cone:angle = 180
+                float inputs:shaping:cone:softness
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (90, 0, 90)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (97.99999945195623, -65.99999837683481, 323.00000350902656)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "mesh_F7D49A1AE743A1F8"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:sky = 0
+            }
+        }
+
+        over "mesh_8EA637FD51EA6679"
+        {
+            def SphereLight "SphereLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -5), (5, 5, 5)]
+                float inputs:intensity = 5
+                float inputs:radius = 50
+                float inputs:shaping:cone:angle = 180
+                float inputs:shaping:cone:softness
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (90, 0, 90)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (6.039327512329692, -1.6677940806175684e-8, 13.730496026589492)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "mesh_18C6B3CAC254FBEB"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:ignore = 0
+            }
+        }
+
+        over "mesh_A9D6089E14A6D5FB"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:ignore = 0
+            }
+        }
+
+        over "mesh_155414FFA497F268"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:hidden = 1
+                custom uniform bool remix_category:ignore = 1
+            }
+        }
+
+        over "mesh_9BE532543D1F6F75"
+        {
+            def SphereLight "SphereLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -5), (5, 5, 5)]
+                float inputs:intensity = 100
+                float inputs:radius = 10
+                float inputs:shaping:cone:angle = 180
+                float inputs:shaping:cone:softness
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (90, 0, 90)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (29.097583144678993, 11.849044314456023, 11.514701489179856)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "mesh_99C9AF69658D4C58"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:sky = 1
+            }
+        }
+
+        over "mesh_817C45C43D3EE344"
+        {
+            def DiskLight "DiskLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -0), (5, 5, 0)]
+                float inputs:intensity = 5
+                float inputs:radius = 500
+                float inputs:shaping:cone:angle = 180
+                float inputs:shaping:cone:softness
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (21.971054501585883, -14.372572826527943, 70.84795495468111)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (828.0504535146385, -1035.3563587617846, 1313.6739640633116)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "mesh_346A2A8FF414DEBF"
+        {
+            def SphereLight "SphereLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -5), (5, 5, 5)]
+                float inputs:intensity = 10
+                float inputs:radius = 202.84692
+                float inputs:shaping:cone:angle = 180
+                float inputs:shaping:cone:softness
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (90, 0, 90)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (-82.72487590234732, -1434.486028399714, -991.7749923808387)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+
+            def SphereLight "SphereLight_01" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -5), (5, 5, 5)]
+                float inputs:intensity = 100
+                float inputs:radius = 100
+                float inputs:shaping:cone:angle = 180
+                float inputs:shaping:cone:softness
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (90, 0, 90)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (-656.951822884309, 130.23682033422438, 270.4562152256567)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+    }
+
+    over "Looks"
+    {
+        over "mat_CD535900024106AE"
+        {
+            over "Shader"
+            {
+                custom float inputs:reflection_roughness_constant = 0
+            }
+        }
+
+        over "mat_D60F8394083CC5E4"
+        {
+            over "Shader"
+            {
+                custom float inputs:reflection_roughness_constant = 0
+            }
+        }
+
+        over "mat_430669A5618E560F"
+        {
+            over "Shader"
+            {
+                custom float inputs:reflection_roughness_constant = 0
+            }
+        }
+
+        over "mat_C332BE0A701C4AC5"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 0.8
+                custom float inputs:reflection_roughness_constant = 0.2
+            }
+        }
+
+        over "mat_D225F862F6060BDF"
+        {
+            over "Shader"
+            {
+                custom float inputs:reflection_roughness_constant = 0.2
+            }
+        }
+
+        over "mat_319775AFE0DDB877"
+        {
+            over "Shader"
+            {
+                custom float inputs:reflection_roughness_constant = 1
+            }
+        }
+
+        over "mat_7438D5D5B0697BDF"
+        {
+            over "Shader"
+            {
+                custom float inputs:reflection_roughness_constant = 1
+            }
+        }
+
+        over "mat_160B1CB6933776E5"
+        {
+            over "Shader"
+            {
+                custom float inputs:reflection_roughness_constant = 1
+            }
+        }
+
+        over "mat_B2F85801346EDE88"
+        {
+            over "Shader"
+            {
+                custom float inputs:reflection_roughness_constant = 1
+            }
+        }
+
+        over "mat_FB7766515A7987C6"
+        {
+            over "Shader"
+            {
+                custom float inputs:reflection_roughness_constant = 1
+            }
+        }
+
+        over "mat_06E2CFE703AA2F04"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 0.8
+                custom float inputs:reflection_roughness_constant = 0.2
+            }
+        }
+
+        over "mat_079CD1824FF02731"
+        {
+            over "Shader"
+            {
+                custom float inputs:reflection_roughness_constant = 0.2
+            }
+        }
+
+        over "mat_EB5E5765DE648BFD"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 0.8
+                custom float inputs:reflection_roughness_constant = 0.2
+            }
+        }
+
+        over "mat_61AE5585D16273ED"
+        {
+            over "Shader"
+            {
+                custom float inputs:reflection_roughness_constant = 1
+            }
+        }
+
+        over "mat_E62ED65CD7A91696"
+        {
+            over "Shader"
+            {
+                custom float inputs:reflection_roughness_constant = 1
+            }
+        }
+
+        over "mat_C010CD4A666F5524"
+        {
+            over "Shader"
+            {
+                custom float inputs:reflection_roughness_constant = 0.2
+            }
+        }
+
+        over "mat_E2C18B789F3F15B5"
+        {
+            over "Shader"
+            {
+                custom float inputs:reflection_roughness_constant = 0
+            }
+        }
+
+        over "mat_715611AA341CAEBC"
+        {
+            over "Shader"
+            {
+                custom float inputs:reflection_roughness_constant = 0
+            }
+        }
+
+        over "mat_6D19783DEF5E3AB7"
+        {
+            over "Shader"
+            {
+                custom float inputs:reflection_roughness_constant = 1
+            }
+        }
+
+        over "mat_2E22C6DCB277442F"
+        {
+            over "Shader"
+            {
+                custom float inputs:reflection_roughness_constant = 1
+            }
+        }
+
+        over "mat_4A7D10BACBD231C0"
+        {
+            over "Shader"
+            {
+                custom float inputs:reflection_roughness_constant = 1
+            }
+        }
+
+        over "mat_912763C24114F2E3"
+        {
+            over "Shader"
+            {
+                custom float inputs:reflection_roughness_constant = 0.2
+            }
+        }
+
+        over "mat_4C08D42C6B4BC310"
+        {
+            over "Shader"
+            {
+                custom float inputs:reflection_roughness_constant = 0.2
+            }
+        }
+
+        over "mat_947D2AF850856EB5"
+        {
+            over "Shader"
+            {
+                custom float inputs:reflection_roughness_constant = 0
+            }
+        }
+
+        over "mat_7EBF53AAD817CDFC"
+        {
+            over "Shader"
+            {
+                custom float inputs:reflection_roughness_constant = 0
+            }
+        }
+
+        over "mat_56C21E96AB41F129"
+        {
+            over "Shader"
+            {
+                custom float inputs:reflection_roughness_constant = 1
+            }
+        }
+
+        over "mat_3B9475175CCCA511"
+        {
+            over "Shader"
+            {
+                custom float inputs:reflection_roughness_constant = 0
+            }
+        }
+
+        over "mat_7BE836424D5348BD"
+        {
+            over "Shader"
+            {
+                custom float inputs:reflection_roughness_constant = 0
+            }
+        }
+
+        over "mat_D4630E168FD36777"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 1
+                custom float inputs:reflection_roughness_constant = 1
+            }
+        }
+
+        over "mat_5E396FC04562B399"
+        {
+            over "Shader"
+            {
+                custom float inputs:reflection_roughness_constant = 1
+            }
+        }
+
+        over "mat_F8FF5B1AF55B051B"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 1
+                custom float inputs:reflection_roughness_constant = 1
+            }
+        }
+
+        over "mat_0C1DD3F6C58E4B22"
+        {
+            over "Shader"
+            {
+                custom float inputs:reflection_roughness_constant = 1
+            }
+        }
+
+        over "mat_6AAFB07DCA436B69"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 0.8
+                custom float inputs:reflection_roughness_constant = 0.2
+            }
+        }
+
+        over "mat_D6B7D05D088E8474"
+        {
+            over "Shader"
+            {
+                custom float inputs:reflection_roughness_constant = 1
+            }
+        }
+
+        over "mat_6936DBFFC5BD2522"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 0.5
+                custom float inputs:reflection_roughness_constant = 0
+            }
+        }
+
+        over "mat_03CB1E02C1EF6101"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 0.5
+                custom float inputs:opacity_constant = 1
+                custom float inputs:reflection_roughness_constant = 0
+            }
+        }
+
+        over "mat_2DF64C9EFAD044FC"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 0.5
+                custom float inputs:reflection_roughness_constant = 0
+            }
+        }
+
+        over "mat_67EEA5AE6E56C7E3"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 0.8
+                custom float inputs:reflection_roughness_constant = 0
+            }
+        }
+
+        over "mat_0223D8FC7010174D"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 0.8
+                custom float inputs:reflection_roughness_constant = 0.4
+            }
+        }
+
+        over "mat_BA94D4564FD0863A"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 0.8
+                custom float inputs:reflection_roughness_constant = 0.2
+            }
+        }
+
+        over "mat_7CB6CA446368AAD0"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 0.8
+                custom float inputs:reflection_roughness_constant = 0.2
+            }
+        }
+
+        over "mat_1BBB9B94B403FA3B"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 0.8
+                custom float inputs:reflection_roughness_constant = 0.2
+            }
+        }
+
+        over "mat_A44D143352197806"
+        {
+            over "Shader"
+            {
+                custom float inputs:reflection_roughness_constant = 1
+            }
+        }
+
+        over "mat_E14AC8E4721004D2"
+        {
+            over "Shader"
+            {
+                custom float inputs:reflection_roughness_constant = 1
+            }
+        }
+
+        over "mat_ACD2DBC3E556FE92"
+        {
+            over "Shader"
+            {
+                custom float inputs:reflection_roughness_constant = 1
+            }
+        }
+
+        over "mat_6623EE884C0931C7"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 0.8
+                custom float inputs:reflection_roughness_constant = 0.2
+            }
+        }
+
+        over "mat_A1A870C425B168C7"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 0.8
+                custom float inputs:reflection_roughness_constant = 0.2
+            }
+        }
+
+        over "mat_3C6FB8DD08BC6B88"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 0.8
+                custom float inputs:reflection_roughness_constant = 0.2
+            }
+        }
+
+        over "mat_A63F19FEBBFEB616"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 0.8
+                custom float inputs:reflection_roughness_constant = 0.4
+            }
+        }
+
+        over "mat_82BE3E3D471CAC8E"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 0.8
+                custom float inputs:reflection_roughness_constant = 0.8
+            }
+        }
+
+        over "mat_B53E2CD07EA6291F"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 0.8
+                custom float inputs:reflection_roughness_constant = 0.2
+            }
+        }
+
+        over "mat_917F1C264B01C7B2"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 0.8
+                custom float inputs:reflection_roughness_constant = 0.4
+            }
+        }
+
+        over "mat_B969666484B062A5"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 0.8
+                custom float inputs:reflection_roughness_constant = 0.2
+            }
+        }
+
+        over "mat_B0DC48B0D9004670"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 0.8
+                custom float inputs:reflection_roughness_constant = 0.2
+            }
+        }
+
+        over "mat_74BF69DB23A6C5EB"
+        {
+            over "Shader"
+            {
+                custom bool inputs:enable_thin_film = 0
+                custom float inputs:metallic_constant = 0
+                custom float inputs:reflection_roughness_constant = 0.8
+            }
+        }
+
+        over "mat_383602F81A56D329"
+        {
+            over "Shader"
+            {
+                custom float inputs:reflection_roughness_constant = 1
+            }
+        }
+
+        over "mat_01BA235373F1E15B"
+        {
+            over "Shader"
+            {
+                custom float inputs:reflection_roughness_constant = 1
+            }
+        }
+
+        over "mat_42127A6C5D32BB58"
+        {
+            over "Shader"
+            {
+                custom color3f inputs:emissive_color_constant = (0.83397686, 1, 0.9942308)
+                custom float inputs:emissive_intensity = 3
+                custom bool inputs:enable_emission = 1
+            }
+        }
+
+        over "mat_8FEC360EB6B58CAC"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 0.8
+                custom float inputs:reflection_roughness_constant = 0.4
+            }
+        }
+
+        over "mat_FDD452FE9EABF846"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 0.8
+                custom float inputs:reflection_roughness_constant = 0.2
+            }
+        }
+
+        over "mat_44C6032152BBE7C2"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 0.8
+                custom float inputs:reflection_roughness_constant = 0.4
+            }
+        }
+
+        over "mat_B147417F87112EF5"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 0.8
+                custom float inputs:reflection_roughness_constant = 0.4
+            }
+        }
+
+        over "mat_4411D728FE17C8F1"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 0.8
+                custom float inputs:reflection_roughness_constant = 0.4
+            }
+        }
+
+        over "mat_B0411AC8D48BD328"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 0.8
+                custom float inputs:reflection_roughness_constant = 0.2
+            }
+        }
+
+        over "mat_C3BF77E62D1D44D6"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 0.8
+                custom float inputs:reflection_roughness_constant = 0.5
+            }
+        }
+
+        over "mat_29C7AA51E7B014A9"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 0.8
+                custom float inputs:reflection_roughness_constant = 0.2
+            }
+        }
+
+        over "mat_050A713ADCB1E667"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 0.8
+                custom float inputs:reflection_roughness_constant = 0.4
+            }
+        }
+
+        over "mat_51A4B6092B612E9C"
+        {
+            over "Shader"
+            {
+                custom float inputs:reflection_roughness_constant = 1
+            }
+        }
+
+        over "mat_3CCA9A700FD02943"
+        {
+            over "Shader"
+            {
+                custom float inputs:reflection_roughness_constant = 1
+            }
+        }
+
+        over "mat_051FCB1D276A0530"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 0.8
+                custom float inputs:reflection_roughness_constant = 0.2
+            }
+        }
+
+        over "mat_5E9A1B3861C7434C"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 0.8
+                custom float inputs:reflection_roughness_constant = 0.2
+            }
+        }
+
+        over "mat_C954BA0182D29B05"
+        {
+            over "Shader"
+            {
+                custom float inputs:reflection_roughness_constant = 1
+            }
+        }
+
+        over "mat_C2F4009D449EA767"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 1
+                custom float inputs:reflection_roughness_constant = 1
+            }
+        }
+
+        over "mat_5C6B3D60A766541C"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 1
+                custom float inputs:reflection_roughness_constant = 1
+            }
+        }
+
+        over "mat_BEC41694A478DFCE"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 1
+                custom float inputs:reflection_roughness_constant = 1
+            }
+        }
+
+        over "mat_25FA3D7A79C81AAE"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 0.995
+                custom float inputs:reflection_roughness_constant = 1
+            }
+        }
+
+        over "mat_AEC2A5128C15C2F3"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 1
+                custom float inputs:reflection_roughness_constant = 1
+            }
+        }
+
+        over "mat_B80E766EC4F2B05C"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 1
+                custom float inputs:reflection_roughness_constant = 1
+            }
+        }
+
+        over "mat_8499397CE2E53BAB"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 1
+                custom float inputs:reflection_roughness_constant = 1
+            }
+        }
+
+        over "mat_3FCAA96A70046C88"
+        {
+            over "Shader"
+            {
+                custom float inputs:reflection_roughness_constant = 1
+            }
+        }
+
+        over "mat_E5FA076FC83E7D49"
+        {
+            over "Shader"
+            {
+                custom float inputs:reflection_roughness_constant = 1
+            }
+        }
+
+        over "mat_5D97BAA38FEE3130"
+        {
+            over "Shader"
+            {
+                custom float inputs:reflection_roughness_constant = 1
+            }
+        }
+
+        over "mat_2776DA98769DDFA6"
+        {
+            over "Shader"
+            {
+                custom float inputs:reflection_roughness_constant = 1
+            }
+        }
+
+        over "mat_214A96995D6B57DA"
+        {
+            over "Shader"
+            {
+                custom float inputs:reflection_roughness_constant = 1
+            }
+        }
+
+        over "mat_105117C5D86562AF"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 0.8
+                custom float inputs:reflection_roughness_constant = 0.2
+            }
+        }
+
+        over "mat_A822F6ABC357E7B9"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 0.8
+                custom float inputs:reflection_roughness_constant = 0.2
+            }
+        }
+
+        over "mat_01D8C8A04F53F5F0"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 0.8
+                custom float inputs:reflection_roughness_constant = 0
+            }
+        }
+
+        over "mat_F917EEB0882EDCE0"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 0.8
+                custom float inputs:reflection_roughness_constant = 0.4
+            }
+        }
+
+        over "mat_C0AE1746F92E37EE"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 0.8
+                custom float inputs:reflection_roughness_constant = 0.4
+            }
+        }
+
+        over "mat_9F1DF2DE7F416FFA"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 0.5
+                custom float inputs:reflection_roughness_constant = 0.8
+            }
+        }
+
+        over "mat_7C46CB0C5F7EA3A3"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 0.8
+                custom float inputs:reflection_roughness_constant = 0.4
+            }
+        }
+
+        over "mat_8E1AB403D63EA2BE"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 0.8
+                custom float inputs:reflection_roughness_constant = 0.4
+            }
+        }
+
+        over "mat_E0BD101C44F72BE1"
+        {
+            over "Shader"
+            {
+                custom bool inputs:blend_enabled = 0
+                custom bool inputs:inverted_blend = 0
+                custom bool inputs:use_legacy_alpha_state = 1
+            }
+        }
+
+        over "mat_069113563C15FF29"
+        {
+            over "Shader"
+            {
+                custom color3f inputs:emissive_color_constant = (0.4153337, 0.969112, 0.5521746)
+                custom float inputs:emissive_intensity = 5
+                custom bool inputs:enable_emission = 1
+            }
+        }
+
+        over "mat_D00339DB5F59820E"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 0.8
+                custom float inputs:reflection_roughness_constant = 0.5
+            }
+        }
+
+        over "mat_0C6EBF6BB47C8F94"
+        {
+            over "Shader"
+            {
+                custom color3f inputs:emissive_color_constant = (0.61003864, 1, 0.95031375)
+                custom float inputs:emissive_intensity = 15
+                custom bool inputs:enable_emission = 1
+            }
+        }
+
+        over "mat_B86C110205F01B6E"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 0.8
+                custom float inputs:reflection_roughness_constant = 0.4
+            }
+        }
+
+        over "mat_0CB62D1FED79A4BD"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 0.8
+                custom float inputs:reflection_roughness_constant = 0.2
+            }
+        }
+
+        over "mat_BB2BB82B15360068"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 0.8
+                custom float inputs:reflection_roughness_constant = 0.2
+            }
+        }
+
+        over "mat_CE260651DE2E3E17"
+        {
+            over "Shader"
+            {
+                custom float inputs:reflection_roughness_constant = 0.2
+            }
+        }
+
+        over "mat_0AC42BE91C812868"
+        {
+            over "Shader"
+            {
+                custom float inputs:reflection_roughness_constant = 1
+            }
+        }
+
+        over "mat_B88765096524469F"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 0.8
+                custom float inputs:reflection_roughness_constant = 0.4
+            }
+        }
+
+        over "mat_9AE6E5AF00ABD7F0"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 0.8
+                custom float inputs:reflection_roughness_constant = 0.4
+            }
+        }
+
+        over "mat_EDECB19BF51438B5"
+        {
+            over "Shader"
+            {
+                custom float inputs:reflection_roughness_constant = 1
+            }
+        }
+
+        over "mat_78D02B8B383A095F"
+        {
+            over "Shader"
+            {
+                custom float inputs:reflection_roughness_constant = 0.2
+            }
+        }
+
+        over "mat_CA82160030AD94B2"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 0.8
+                custom float inputs:reflection_roughness_constant = 0.8
+            }
+        }
+
+        over "mat_80AD3F61A97919A3"
+        {
+            over "Shader"
+            {
+                custom float inputs:reflection_roughness_constant = 0.8
+            }
+        }
+
+        over "mat_014E2FC6D765AD59"
+        {
+            over "Shader"
+            {
+                custom float inputs:reflection_roughness_constant = 0.8
+            }
+        }
+
+        over "mat_8EB596276E7CD8AD"
+        {
+            over "Shader"
+            {
+                custom float inputs:reflection_roughness_constant = 0.2
+            }
+        }
+
+        over "mat_72D184C6AD64A757"
+        {
+            over "Shader"
+            {
+                custom float inputs:reflection_roughness_constant = 0.2
+            }
+        }
+
+        over "mat_92C7F80087A8E1B6"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 1
+                custom float inputs:reflection_roughness_constant = 1
+            }
+        }
+
+        over "mat_56B8A698429542AE"
+        {
+            over "Shader"
+            {
+                custom float inputs:reflection_roughness_constant = 0.5
+            }
+        }
+
+        over "mat_191AC48833F5E88D"
+        {
+            over "Shader"
+            {
+                custom float inputs:reflection_roughness_constant = 0
+            }
+        }
+
+        over "mat_27D90EFAF502DB64"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 0.8
+                custom float inputs:reflection_roughness_constant = 0
+            }
+        }
+
+        over "mat_A6CEBE961457A902"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 1
+                custom float inputs:reflection_roughness_constant = 1
+            }
+        }
+
+        over "mat_1842D5181BC58EA2"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 1
+                custom float inputs:reflection_roughness_constant = 1
+            }
+        }
+
+        over "mat_B3E5F10D6DCBD777"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 0.5
+                custom float inputs:reflection_roughness_constant = 0
+            }
+        }
+
+        over "mat_05D6C9BFC95044FF"
+        {
+            over "Shader"
+            {
+                custom float inputs:reflection_roughness_constant = 0
+            }
+        }
+
+        over "mat_44FD4FF777140851"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 0.5
+                custom float inputs:reflection_roughness_constant = 0
+            }
+        }
+
+        over "mat_A14D65F9347347C7"
+        {
+            over "Shader"
+            {
+                custom float inputs:reflection_roughness_constant = 0
+            }
+        }
+
+        over "mat_B085FA0EABC26E9D"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 0.5
+                custom float inputs:reflection_roughness_constant = 0
+            }
+        }
+
+        over "mat_4511EB0DA03B92AD"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 0.5
+                custom float inputs:reflection_roughness_constant = 0
+            }
+        }
+
+        over "mat_A870A7EBDD5E8A94"
+        {
+            over "Shader"
+            {
+                custom float inputs:reflection_roughness_constant = 0
+            }
+        }
+
+        over "mat_2969722ACA0A1A38"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 0.5
+                custom float inputs:reflection_roughness_constant = 0
+            }
+        }
+
+        over "mat_8BD532DF52B95DCE"
+        {
+            over "Shader"
+            {
+                custom float inputs:reflection_roughness_constant = 0
+            }
+        }
+
+        over "mat_6F72FA0279277DD4"
+        {
+            over "Shader"
+            {
+                custom float inputs:opacity_constant = 1
+            }
+        }
+
+        over "mat_344D23A8FC374D7D"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 0.5
+            }
+        }
+
+        over "mat_FECBB199325492D9"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 0.5
+                custom float inputs:reflection_roughness_constant = 0
+            }
+        }
+
+        over "mat_AB67614CC7D637D7"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 0.5
+                custom float inputs:reflection_roughness_constant = 0
+            }
+        }
+
+        over "mat_E7964A272B4B4448"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 0.8
+                custom float inputs:reflection_roughness_constant = 0
+            }
+        }
+
+        over "mat_DFA86B3A635D3DAA"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 0.8
+                custom float inputs:reflection_roughness_constant = 0
+            }
+        }
+
+        over "mat_CE6529E62BCCBF6B"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 0.8
+                custom float inputs:reflection_roughness_constant = 0
+            }
+        }
+
+        over "mat_9B47BFD4B032F00D"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 0.8
+                custom float inputs:reflection_roughness_constant = 0.2
+            }
+        }
+
+        over "mat_D7384CDAE6FE18BE"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 0.8
+                custom float inputs:reflection_roughness_constant = 0
+            }
+        }
+
+        over "mat_773BFE2C4B95E32A"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 0.8
+                custom float inputs:reflection_roughness_constant = 0
+            }
+        }
+
+        over "mat_4608334F581C6C27"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 0.8
+                custom float inputs:reflection_roughness_constant = 0
+            }
+        }
+
+        over "mat_8A8D638AFA5D51D8"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 0.8
+                custom float inputs:reflection_roughness_constant = 0.2
+            }
+        }
+
+        over "mat_C9862DAD44D54F12"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 0.8
+                custom float inputs:reflection_roughness_constant = 0
+            }
+        }
+
+        over "mat_41FCED5682E37FF8"
+        {
+            over "Shader"
+            {
+                custom color3f inputs:emissive_color_constant = (0.5547323, 1, 0.5405406)
+                custom float inputs:emissive_intensity = 5
+                custom bool inputs:enable_emission = 1
+            }
+        }
+
+        over "mat_877644BD4FC6AE1D"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 0.8
+                custom float inputs:reflection_roughness_constant = 0
+            }
+        }
+
+        over "mat_74DE6B29E0CE9967"
+        {
+            over "Shader"
+            {
+                custom color3f inputs:emissive_color_constant = (0.8841699, 0.884161, 0.884161)
+                custom float inputs:emissive_intensity = 1
+                custom bool inputs:enable_emission = 1
+            }
+        }
+
+        over "mat_27CDE5530A83166D"
+        {
+            over "Shader"
+            {
+                custom color3f inputs:emissive_color_constant = (0.88030887, 0.88030005, 0.88030005)
+                custom float inputs:emissive_intensity = 1
+                custom bool inputs:enable_emission = 1
+            }
+        }
+
+        over "mat_2C91606E2427BF7E"
+        {
+            over "Shader"
+            {
+            }
+        }
+
+        over "mat_175E4E41E8D906AE"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 1
+                custom float inputs:reflection_roughness_constant = 1
+            }
+        }
+
+        over "mat_5ACE9740C45F3539"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 1
+                custom float inputs:reflection_roughness_constant = 1
+            }
+        }
+
+        over "mat_E7E3FA028118FB48"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 0.8
+                custom float inputs:reflection_roughness_constant = 0.2
+            }
+        }
+
+        over "mat_6CACF520C2874FFB"
+        {
+            over "Shader"
+            {
+                custom color3f inputs:emissive_color_constant = (0.57142854, 0.99503773, 1)
+                custom float inputs:emissive_intensity = 5
+                custom bool inputs:enable_emission = 1
+            }
+        }
+
+        over "mat_F9CDCB11A84CCABF"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 0.8
+                custom float inputs:reflection_roughness_constant = 0.2
+            }
+        }
+
+        over "mat_1081D7E7E9DB5F3D"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 0.8
+                custom float inputs:reflection_roughness_constant = 0.2
+            }
+        }
+
+        over "mat_B73A2674A1B6C8E6"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 0.8
+                custom float inputs:reflection_roughness_constant = 0.2
+            }
+        }
+
+        over "mat_4D2AD637A487A0B1"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 0.8
+                custom float inputs:reflection_roughness_constant = 0.2
+            }
+        }
+
+        over "mat_D8877D80F49779D3"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 0.8
+                custom float inputs:reflection_roughness_constant = 0.2
+            }
+        }
+
+        over "mat_194B68B6113DA93F"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 0.8
+                custom float inputs:reflection_roughness_constant = 0.2
+            }
+        }
+
+        over "mat_3BAFA731D59CA934"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 0.8
+                custom float inputs:reflection_roughness_constant = 0.2
+            }
+        }
+
+        over "mat_036AE6AFDF81EE1C"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 0.8
+                custom float inputs:reflection_roughness_constant = 0.2
+            }
+        }
+
+        over "mat_184EF104CD8ACD44"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 0.8
+                custom float inputs:reflection_roughness_constant = 0.2
+            }
+        }
+
+        over "mat_89F15DC8C65E8DAE"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 0.8
+                custom float inputs:reflection_roughness_constant = 0.2
+            }
+        }
+
+        over "mat_772F982CAC1468CF"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 0.8
+                custom float inputs:reflection_roughness_constant = 0.2
+            }
+        }
+
+        over "mat_147468D3018F5F96"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 0.8
+                custom float inputs:reflection_roughness_constant = 0.2
+            }
+        }
+
+        over "mat_D0480035A1021C2B"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 0.8
+                custom float inputs:reflection_roughness_constant = 0.2
+            }
+        }
+
+        over "mat_3BD48A81AC67BC08"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 0.8
+                custom float inputs:reflection_roughness_constant = 0.2
+            }
+        }
+
+        over "mat_8E1374FC732557F4"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 0.8
+                custom float inputs:reflection_roughness_constant = 0.2
+            }
+        }
+
+        over "mat_2771518A4223CA2D"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 0.8
+                custom float inputs:reflection_roughness_constant = 0.2
+            }
+        }
+
+        over "mat_D772168726B26E95"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 0.8
+                custom float inputs:reflection_roughness_constant = 0.2
+            }
+        }
+
+        over "mat_E86E45829A8F7612"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 0.8
+                custom float inputs:reflection_roughness_constant = 0.2
+            }
+        }
+
+        over "mat_E0D621EAD95B35D7"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 0.8
+                custom float inputs:reflection_roughness_constant = 0.2
+            }
+        }
+
+        over "mat_7B32783F3125B0A8"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 0.8
+                custom float inputs:reflection_roughness_constant = 0.2
+            }
+        }
+
+        over "mat_4BB86138AEE294C1"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 0.8
+                custom float inputs:reflection_roughness_constant = 0.2
+            }
+        }
+
+        over "mat_34C8667FFD166E61"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 0.8
+                custom float inputs:reflection_roughness_constant = 0.2
+            }
+        }
+
+        over "mat_3EBF5AC0C52F9DE9"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 1
+                custom float inputs:reflection_roughness_constant = 1
+            }
+        }
+
+        over "mat_588B5DD5F49ED346"
+        {
+            over "Shader"
+            {
+                custom bool inputs:enable_emission = 0
+                custom float inputs:metallic_constant = 1
+                custom float inputs:reflection_roughness_constant = 1
+                custom float inputs:subsurface_measurement_distance = 0
+                custom bool inputs:thin_film_thickness_from_albedo_alpha = 0
+            }
+        }
+
+        over "mat_920E4B5FA2E6A4DE"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 1
+                custom float inputs:reflection_roughness_constant = 1
+            }
+        }
+
+        over "mat_1C9413ADE9C0D997"
+        {
+            over "Shader"
+            {
+                custom color3f inputs:emissive_color_constant = (0.6756757, 1, 0.96619016)
+                custom float inputs:emissive_intensity = 1
+                custom bool inputs:enable_emission = 1
+            }
+        }
+
+        over "mat_2B534B2F768FEF63"
+        {
+            over "Shader"
+            {
+                custom bool inputs:blend_enabled = 0
+                custom bool inputs:inverted_blend = 0
+                custom float inputs:metallic_constant = 0.5
+                custom float inputs:opacity_constant = 1
+                custom float inputs:reflection_roughness_constant = 0
+            }
+        }
+
+        over "mat_5A76BE6ABCA7525E"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 0.5
+                custom float inputs:reflection_roughness_constant = 0.2
+            }
+        }
+
+        over "mat_C986D979A215EF15"
+        {
+            over "Shader"
+            {
+                custom float inputs:reflection_roughness_constant = 0.2
+            }
+        }
+
+        over "mat_E8AD97E6B8E5A41B"
+        {
+            over "Shader"
+            {
+                custom float inputs:reflection_roughness_constant = 0.2
+            }
+        }
+    }
+
+    over "instances"
+    {
+        over "inst_2541132E3A0B771A_0"
+        {
+            token visibility = "inherited"
+
+            over "mesh"
+            {
+                token visibility = "inherited"
+            }
+
+            over "SphereLight"
+            {
+                token visibility = "invisible"
+            }
+        }
+
+        over "inst_18C6B3CAC254FBEB_0"
+        {
+            over "mesh"
+            {
+                token visibility = "inherited"
+            }
+        }
+
+        over "inst_A9D6089E14A6D5FB_0"
+        {
+            token visibility = "inherited"
+
+            over "mesh"
+            {
+                token visibility = "inherited"
+            }
+        }
+
+        over "inst_ABE3923B296E5848_0"
+        {
+            token visibility = "inherited"
+        }
+
+        over "inst_A94B7D85CC3E7392_0"
+        {
+            over "SphereLight"
+            {
+                token visibility = "inherited"
+            }
+
+            over "mesh"
+            {
+                token visibility = "inherited"
+            }
+        }
+
+        over "inst_FC0D24B381D3809E_0"
+        {
+            token visibility = "inherited"
+        }
+    }
+}
+
